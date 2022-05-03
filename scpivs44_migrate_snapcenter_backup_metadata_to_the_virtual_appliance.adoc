@@ -6,6 +6,7 @@ summary: 您可以使用 SnapCenter Windows PowerShell cmdlet 将适用于虚拟
 ---
 = 迁移基于 Windows 的 SnapCenter VMware 备份元数据
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

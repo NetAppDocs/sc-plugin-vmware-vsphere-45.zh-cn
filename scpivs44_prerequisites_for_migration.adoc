@@ -6,6 +6,7 @@ summary: 在迁移到适用于 VMware vSphere 的 SnapCenter 插件之前，请�
 ---
 = 迁移的前提条件
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

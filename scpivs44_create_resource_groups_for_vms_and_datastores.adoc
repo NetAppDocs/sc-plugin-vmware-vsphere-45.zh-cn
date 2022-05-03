@@ -6,6 +6,7 @@ summary: 资源组是要保护的一个或多个 VM 或数据存储库的容器�
 ---
 = 为 VM 和数据存储库创建资源组
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

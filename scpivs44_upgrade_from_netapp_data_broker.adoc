@@ -6,6 +6,7 @@ summary: 如果要使用适用于 VMware vSphere 的 SnapCenter 插件提供的�
 ---
 = 从 NetApp Data Broker 升级
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

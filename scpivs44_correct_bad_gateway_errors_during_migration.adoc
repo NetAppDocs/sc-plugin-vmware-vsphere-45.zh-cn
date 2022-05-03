@@ -6,6 +6,7 @@ summary: '在手动将文件或其他内容添加到适用于 VMware vSphere 的
 ---
 = 更正迁移期间出现的 " 网关错误 "
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

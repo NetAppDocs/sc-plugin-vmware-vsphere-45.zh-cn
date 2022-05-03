@@ -6,6 +6,7 @@ summary: 您可以使用 SnapCenter Windows PowerShell cmdlet 将适用于 VMwar
 ---
 = 迁移选项和支持的路径
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

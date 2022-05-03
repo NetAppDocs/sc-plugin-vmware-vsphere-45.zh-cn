@@ -6,6 +6,7 @@ summary: migration 命令仅从 SnapCenter 4.0 及更高版本迁移元数据。
 ---
 = 迁移概述
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

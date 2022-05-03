@@ -6,6 +6,7 @@ summary:
 ---
 = 法律声明
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

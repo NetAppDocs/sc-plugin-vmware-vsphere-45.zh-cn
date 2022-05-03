@@ -6,6 +6,7 @@ summary: 如果您使用的是基于 Windows 的 SnapCenter VMware 插件，并�
 ---
 = 从适用于 VMware vSphere 的基于 Windows 的 SnapCenter 插件迁移
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

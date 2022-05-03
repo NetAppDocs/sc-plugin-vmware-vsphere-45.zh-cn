@@ -6,6 +6,7 @@ summary: 将备份元数据迁移到适用于 VMware vSphere 的 SnapCenter 插�
 ---
 = 迁移后
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
