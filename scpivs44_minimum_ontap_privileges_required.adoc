@@ -50,7 +50,7 @@ summary: 所需的最小 ONTAP 权限因用于数据保护的 SnapCenter 插件�
 |===
 
 
-=== 其他 ONTAP 信息
+== 其他 ONTAP 信息
 
 * 如果您运行的是 ONTAP 8.2.x ：
 +

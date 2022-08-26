@@ -18,7 +18,7 @@ summary: '在手动将文件或其他内容添加到适用于 VMware vSphere 的
 
 
 
-=== 场景 1
+== 场景 1
 
 您手动将文件或其他内容添加到适用于 VMware vSphere 的 SnapCenter 插件，然后尝试迁移。在这种情况下，设备中没有足够的空间用于迁移过程。
 
@@ -26,7 +26,7 @@ summary: '在手动将文件或其他内容添加到适用于 VMware vSphere 的
 
 
 
-=== 场景 2
+== 场景 2
 
 适用于 VMware vSphere 的 SnapCenter 插件连接已停止，或者此服务已在迁移期间停止。
 

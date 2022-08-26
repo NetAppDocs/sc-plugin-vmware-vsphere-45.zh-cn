@@ -1948,7 +1948,6 @@
   <block id="dcf7adf9c4359cc6e6dd9e4730ada614" category="paragraph"><block ref="dcf7adf9c4359cc6e6dd9e4730ada614" category="inline-link-macro-rx"></block></block>
   <block id="8d9c5cc14a4e4caa925cbd7a13131b96" category="paragraph"><block ref="8d9c5cc14a4e4caa925cbd7a13131b96" category="inline-link-macro-rx"></block></block>
   <block id="5ab39eb962f4ca6c2fa2841599dc4b73" category="paragraph"><block ref="5ab39eb962f4ca6c2fa2841599dc4b73" category="inline-link-macro-rx"></block></block>
-  <block id="45836dd55e4a9e4d3f498e62df8c9a46" category="sidebar">适用于 VMware vSphere 4.5 的 SnapCenter 插件</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="8b1375f200206162c06fc46aeb476858" category="sidebar">部署 SCV 的要求</block>
@@ -1985,4 +1984,6 @@
   <block id="7608e75619cff3eeb4e8bce40481b456" category="sidebar">SnapCenter 软件文档</block>
   <block id="11d88a82190664755120fc16494310df" category="sidebar">早期版本的 SCV 文档</block>
   <block id="74fe1f888648848c4fd5f85ae847a16c" category="sidebar">NetApp 知识库— SCV</block>
+  <block id="4ed8fea6a44efd457a04aa1bfb2a2d2b" category="sidebar">适用于VMware vSphere的SnapCenter 插件4.5文档</block>
+  <block id="3390e3575b3e341afa2b7172ff5b33a7" category="sidebar">适用于 VMware vSphere 的 SnapCenter 插件</block>
 </blocks>

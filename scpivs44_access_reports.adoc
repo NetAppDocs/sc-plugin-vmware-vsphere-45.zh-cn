@@ -40,7 +40,7 @@ summary: 您可以从信息板请求一个或多个作业的报告。
 
 
 
-=== VMware vSphere Web Client 中的报告类型
+== VMware vSphere Web Client 中的报告类型
 
 适用于 SnapCenter 的 VMware vSphere Web Client 提供了可自定义的报告选项，可为您提供有关数据保护作业和插件资源状态的详细信息。您只能为主保护生成报告。
 

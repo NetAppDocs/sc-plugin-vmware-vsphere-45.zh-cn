@@ -42,7 +42,7 @@ summary: 将适用于 VMware vSphere 的 SnapCenter 插件升级到同一版本�
 
 
 
-=== 临时解决策（如果在清除缓存之前已升级）
+== 临时解决策（如果在清除缓存之前已升级）
 
 . 登录到 SnapCenter VMware 插件管理 GUI 。
 +
