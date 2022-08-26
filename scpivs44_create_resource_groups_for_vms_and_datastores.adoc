@@ -61,7 +61,7 @@ IMPORTANT: 请勿添加处于不可访问状态的 VM 。尽管您可以创建�
 SnapCenter 会在您创建资源组时执行兼容性检查。
 
 +
-<<Manage compatibility check failures>>
+ compatibility check failures
 
 
 
@@ -130,7 +130,7 @@ image:scpivs44_image17.png["错误：缺少图形映像"]
 单击 * 下一步 * 时，系统会首先检查 SnapCenter 是否管理选定虚拟机或数据存储库所在的存储并与其兼容。
 
 +
-如果显示消息 `Sselected virtual machine is not SnapCenter compatible or selected datastore is not SnapCenter compatible` ，则选定虚拟机或数据存储库与 SnapCenter 不兼容。请参见 <<Manage compatibility check failures>> 有关详细信息 ...
+如果显示消息 `Sselected virtual machine is not SnapCenter compatible or selected datastore is not SnapCenter compatible` ，则选定虚拟机或数据存储库与 SnapCenter 不兼容。请参见  compatibility check failures 有关详细信息 ...
 
 . 在 * 生成磁盘 * 页面上，为多个数据存储库中具有多个 VMDK 的 VM 选择一个选项：
 +
