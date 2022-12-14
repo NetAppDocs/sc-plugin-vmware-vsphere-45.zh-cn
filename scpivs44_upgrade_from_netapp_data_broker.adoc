@@ -22,6 +22,7 @@ summary: 如果要使用适用于 VMware vSphere 的 SnapCenter 插件提供的�
 * 最佳做法是，在升级之前备份包含 NetApp Data Broker 的虚拟机。
 
 
+.关于此任务
 基本升级步骤有三个：
 
 . 准备升级。
@@ -89,6 +90,7 @@ image:scpivs44_image32.png["错误：缺少图形映像"]
 
 
 
+.完成后
 系统显示升级成功消息后，系统将尝试启动服务。
 
 . 请稍候，直到显示 " 按 Enter 继续 " 消息，然后登录到适用于 VMware vSphere 的 SnapCenter 插件管理图形用户界面。

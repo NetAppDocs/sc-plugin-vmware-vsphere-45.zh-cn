@@ -22,6 +22,7 @@ summary: 如果您使用的是基于 Windows 的 SnapCenter VMware 插件，并�
 * 确保 SnapCenter 服务器已升级。请参见 link:scpivs44_release_notes.html["适用于 VMware vSphere 的 SnapCenter 插件发行说明"^] 有关支持的升级路径的信息。
 
 
+.关于此任务
 有四个基本步骤：
 
 . 下载适用于 VMware vSphere 的 SnapCenter 插件 ` .ova` 文件。

@@ -16,6 +16,7 @@ summary: 您可以使用 SnapCenter VMware vSphere Web 客户端的编辑资源�
 [role="lead"]
 您可以使用 SnapCenter VMware vSphere Web 客户端的编辑资源组向导向任何现有资源组添加多个 VM 和数据存储库。
 
+.关于此任务
 您可以添加 SAN 和 NAS 数据存储库，但不能添加 VSAN 或 VVol 数据存储库。
 
 .步骤

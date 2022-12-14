@@ -22,6 +22,7 @@ summary: 您需要使用适用于 VMware vSphere 的 SnapCenter 插件管理 GUI
 
 在为适用于 VMware vSphere 的 SnapCenter 插件资源组配置备份计划时，系统会自动为部署 SnapCenter VMware 插件的时区设置此计划。您可以使用适用于 VMware vSphere 的 SnapCenter 插件管理 GUI 修改该时区。
 
+.开始之前
 您必须知道适用于 VMware vSphere 的 SnapCenter 插件管理 GUI 的 IP 地址和登录凭据。
 
 * 部署 SnapCenter VMware 插件时会显示此 IP 地址。
@@ -50,6 +51,7 @@ image:scpivs44_image28.jpg["错误：缺少图形映像"]
 
 您可以修改适用于 VMware vSphere 的 SnapCenter 插件管理 GUI 的登录凭据。
 
+.开始之前
 您必须知道适用于 VMware vSphere 的 SnapCenter 插件管理 GUI 的 IP 地址和登录凭据。
 
 * 部署 SnapCenter VMware 插件时会显示此 IP 地址。
@@ -78,6 +80,7 @@ image:scpivs44_image28.jpg["错误：缺少图形映像"]
 
 您可以修改在适用于 VMware vSphere 的 SnapCenter 插件中配置的 vCenter 登录凭据。插件使用这些设置访问 vCenter 。
 
+.开始之前
 您必须知道适用于 VMware vSphere 的 SnapCenter 插件管理 GUI 的 IP 地址和登录凭据。
 
 * 部署 SnapCenter VMware 插件时会显示此 IP 地址。
@@ -106,6 +109,7 @@ image:scpivs44_image30.png["错误：缺少图形映像"]
 
 您可以修改在适用于 VMware vSphere 的 SnapCenter 插件中配置的网络设置。插件使用这些设置访问 vCenter 。
 
+.开始之前
 您必须知道适用于 VMware vSphere 的 SnapCenter 插件管理 GUI 的 IP 地址和登录凭据。
 
 * 部署 SnapCenter VMware 插件时会显示此 IP 地址。
