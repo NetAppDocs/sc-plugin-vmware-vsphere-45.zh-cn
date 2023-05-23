@@ -30,7 +30,7 @@ TIP: 在开始升级之前，请备份适用于 VMware vSphere 的 SnapCenter �
 
 . 下载升级 ` .iso` 文件。
 +
-.. 登录到 NetApp 支持站点。 (https://mysupport.netapp.com/products/index.html)[]。
+.. 登录到 NetApp 支持站点。 。
 .. 从产品列表中，选择 * 适用于 VMware vSphere 的 SnapCenter 插件 * ，然后单击 * 下载最新版本 * 按钮。
 .. 将适用于 VMware vSphere 的 SnapCenter 插件升级 ` .iso` 文件下载到任意位置。
 
