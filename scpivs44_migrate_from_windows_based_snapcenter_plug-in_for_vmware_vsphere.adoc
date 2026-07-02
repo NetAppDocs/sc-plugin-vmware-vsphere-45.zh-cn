@@ -55,6 +55,6 @@ link:scpivs44_post_deployment_required_operations_and_issues.html["部署后需�
 
 . 迁移基于 Windows 的 VMware 备份元数据。
 +
-link:scpivs44_migrate_from_snapcenter_backup_metadata_to_the_virtual_appliance.html["迁移基于 Windows 的 SnapCenter VMware 备份元数据"]
+link:scpivs44_migrate_snapcenter_backup_metadata_to_the_virtual_appliance.html["迁移基于 Windows 的 SnapCenter VMware 备份元数据"]
 
 

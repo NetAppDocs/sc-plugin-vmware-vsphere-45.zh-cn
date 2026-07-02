@@ -138,8 +138,6 @@
   <block id="525ce06d03fa80ad6cae17313fa2c200" category="cell">` /4.1/resource-groups/ ｛ resouceGroupId ｝`</block>
   <block id="5fe166e4135764c88a9a4a5e8123d9a7" category="cell">`更新资源组` 修改指定的资源组。传递步骤 1 中的 * 资源组 Id* 。或者，传递步骤 2 中的 * 策略 Id* 并输入 * 频率 * 详细信息以及所有其他必需属性。</block>
   <block id="023f24f55850eacb351f762db9b50e81" category="doc">迁移概述</block>
-  <block id="8a4139ea0786f41cc68aee2d93ca450a" category="paragraph">migration 命令仅从 #SnapCenter 4.0 及更高版本 # 迁移元数据。如果您使用的是早期版本的 SnapCenter ，则必须先升级，然后才能进行迁移。</block>
-  <block id="ec3d3431008e42a4c37055a78db7f12e" category="list-text">迁移的内容包括</block>
   <block id="2feaeb2408c183d076a33a4219e1d2f9" category="list-text">迁移的内容</block>
   <block id="6e47f67257a96da0e60439107f9313d8" category="paragraph">SnapCenter 元数据，包括存储系统，自定义限制以及 SnapCenter 配置文件，策略，资源组，备份元数据和挂载中的电子邮件设置。（迁移遇到预处理或后处理脚本时失败）</block>
   <block id="f157845fa7e2cb440b9720fee982320f" category="list-text">未迁移的内容</block>
@@ -149,7 +147,6 @@
   <block id="2f0eb194a8b49da961163bd88957db1d" category="paragraph">`sCBR.override` 配置文件</block>
   <block id="9f169b49f330730947d222bbed5ea9d5" category="list-text">SnapCenter 主机已暂停</block>
   <block id="f9e772034bf2ad727413af11c17ae321" category="paragraph">为确保迁移成功，迁移命令会暂停已向 SnapCenter 注册的所有主机。迁移过程成功完成后， SnapCenter 主机将恢复。</block>
-  <block id="076b638a7f6c60dc2af3157c7af35158" category="list-text">迁移 cmdlet 过程</block>
   <block id="5791662733ea82fadcf51018f5a713cc" category="paragraph">您必须对向 SnapCenter 注册的每个 SnapCenter VMware 插件实例使用 Windows PowerShell cmdlet `invoke-scvAMigraation` 。</block>
   <block id="e58c39b63288d59ff9b1d3a32f24ba44" category="paragraph">cmdlet 可执行以下操作：</block>
   <block id="ddfa006f0c7097e6fe9a320155501b2f" category="list-text">暂停所有计划，以防止迁移期间出现作业失败。成功迁移后，系统会自动重新启用计划。</block>
@@ -159,7 +156,6 @@
   <block id="8ad1e62298fe84f2103d5d68c12376c5" category="paragraph">如果 SnapCenter VMware 插件安装在 SnapCenter 服务器主机上，并且为 SnapCenter 存储库配置了保护，则迁移过程还会卸载包含适用于 VMware vSphere 的 SnapCenter 插件和适用于 Windows 的 SnapCenter 插件的基于 Windows 的插件软件包， 然后，重新安装适用于 Windows 的最新版本 SnapCenter 插件以支持存储库保护。SnapCenter 图形用户界面中的主机类型从 "vsphere" 更改为 "Windows" 。</block>
   <block id="f45c0c9d4c9330950129ecfca4d67849" category="list-text">从 Windows SnapCenter 服务器中删除 vSphere 主机和资源组。</block>
   <block id="63d4733b87f2ebada3ddc1c38c9e2096" category="list-text">激活基于 Linux 的 SnapCenter VMware 插件上的备份作业。</block>
-  <block id="4da72ab114de409c72a5b91f5ad57eac" category="list-text">将 vSphere 主机注册到 SnapCenter 中的 SnapCenter VMware 插件 `，以支持基于应用程序对虚拟化数据库和文件系统进行备份（基于 VMDK 的应用程序备份）。</block>
   <block id="eb35c37e8caa9a670b1dc9d5b748f81d" category="list-text">元数据的存储位置</block>
   <block id="225482ffbb975fa40a03adf122327c07" category="paragraph">用于基于应用程序的 VMDK 备份的元数据存储在 SnapCenter 服务器存储库中。VM 和数据存储库备份的元数据存储在 SnapCenter VMware 插件 MySQL 存储库中。</block>
   <block id="713dad9a76a802a2762c4f4bf98a7a05" category="summary">要使用适用于 VMware vSphere 的 SnapCenter 插件 REST API 对 VMDK 执行连接和断开操作，您必须遵循规定的 REST API 调用顺序。</block>
@@ -618,7 +614,6 @@
   <block id="5990783a93858d845e12e401808f16f3" category="list-text">当二级存储（镜像存储）上的 Snapshot 副本数量达到最大限制时，在备份操作中注册备份并应用保留的活动将失败，并显示以下错误： `一个或多个 SnapMirror 关系当前使用此 Snapshot 副本作为参考 Snapshot 副本。删除 Snapshot 副本可能会导致发生原因未来的 SnapMirror 操作失败。`</block>
   <block id="7cb7ec638ee3f628b5dd7b29b735054f" category="paragraph">要更正此问题描述，请为二级存储配置 SnapMirror 保留策略，以避免达到 Snapshot 副本的最大限制。</block>
   <block id="585f74b2337dcf50d5f84248087dbc7a" category="inline-link">有关使用基于角色的访问控制的 SnapCenter 信息</block>
-  <block id="339d9a9c6148bb34e3d15a00f296465c" category="paragraph">有关管理员如何为用户分配资源的信息，请参见<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>。</block>
   <block id="600a5d9204570f4fa6ca6b92c38201a2" category="list-text">如果要使用 VM 一致的备份，则必须安装并运行 VMware Tools 。需要使用 VMware Tools 暂停 VM 。</block>
   <block id="567ee5fafb197286f35c17cbadbca640" category="paragraph">这些向导页面上的大多数字段都是不言自明的。以下信息介绍了一些可能需要指导的字段。</block>
   <block id="406017c1f63a5ea525013c02ee27c794" category="list-text">在 VMware vSphere Web Client 的左侧导航器窗格中，单击 * 策略 * 。</block>
@@ -786,7 +781,6 @@
   <block id="89321ccbd89a9e660bc76b0f2974632d" category="summary">SnapCenter VMware 插件采用 SSL 加密，可与客户端浏览器进行安全通信。虽然这样可以跨网启用加密数据，但创建新的自签名证书，或者使用您自己的证书颁发机构（ CA ）基础架构或第三方 CA ，可确保此证书对于您的环境是唯一的。</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="doc">创建和导入证书</block>
   <block id="9668b00eae1748d51afb7f725a15301a" category="inline-link">知识库文章：如何创建和 / 或将 SSL 证书导入到适用于 VMware vSphere 的 SnapCenter 插件</block>
-  <block id="ba9184cb661fa8aa1f1e6f33c3d4f7b2" category="paragraph">请参见<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block>。</block>
   <block id="015b635404a717ebcfa72500098a5d70" category="summary">如果您使用的是适用于 VMware vSphere 的 SnapCenter 插件虚拟设备，则可以升级到更高版本。</block>
   <block id="331b48aba7178950c3dc14c31a21f9c0" category="doc">从适用于 VMware vSphere 的 SnapCenter 插件的早期版本升级</block>
   <block id="2d611cef8c845765881d408c7f4ca34d" category="paragraph">请参见 <block ref="7b21f43f6f2c3f2cfd7e9a930ea43d44" category="inline-link-macro-rx"></block> 有关支持的升级路径的信息。</block>
@@ -1930,7 +1924,6 @@
   <block id="db2e1add63786a85a052ed22230695ba" category="paragraph">由于这是新安装的基于 Linux 的 SnapCenter VMware 插件，因此请按照以下步骤部署 OVA 。</block>
   <block id="dcf7adf9c4359cc6e6dd9e4730ada614" category="paragraph"><block ref="dcf7adf9c4359cc6e6dd9e4730ada614" category="inline-link-macro-rx"></block></block>
   <block id="8d9c5cc14a4e4caa925cbd7a13131b96" category="paragraph"><block ref="8d9c5cc14a4e4caa925cbd7a13131b96" category="inline-link-macro-rx"></block></block>
-  <block id="5ab39eb962f4ca6c2fa2841599dc4b73" category="paragraph"><block ref="5ab39eb962f4ca6c2fa2841599dc4b73" category="inline-link-macro-rx"></block></block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="8b1375f200206162c06fc46aeb476858" category="sidebar">部署 SCV 的要求</block>
@@ -1980,4 +1973,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="4ddfe5345c1893eaed7f3552ae181f2a" category="paragraph">请参阅<block ref="3cc65228ae073aa630520717edc687a9" category="inline-link-rx"></block>。</block>
+  <block id="9c6e71898eae8897a7d429e3065e5a68" category="paragraph">有关管理员如何向用户分配资源的信息，请参见<block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block>。</block>
+  <block id="a621a06ff9228f52f24b83c3da378df2" category="paragraph"><block ref="a621a06ff9228f52f24b83c3da378df2" category="inline-link-macro-rx"></block></block>
 </blocks>
